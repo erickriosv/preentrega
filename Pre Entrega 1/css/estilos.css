@@ -1,0 +1,267 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+/* estilos generales */
+body{
+    
+    
+}
+h3{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 20px;
+    letter-spacing: 5px;
+    color: rgb(22, 211, 218);
+}
+
+/* estilos de header */
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+
+    
+}
+
+
+
+header h1{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:darkturquoise;
+    
+}
+
+header nav {
+    float: left;
+  
+
+  }
+  
+
+  
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1px;
+    text-align: center;
+   
+
+    
+}
+
+header nav ul li{
+    background-color: rgb(22, 211, 218);
+    float:inline-end;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    padding-right: 5px;
+  
+}
+
+nav ul li a {
+    display: flex;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li:hover {
+    background: #eca023;
+    
+    }
+
+.icono-face .icono-whats{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    padding-right: 20px;
+
+}
+
+
+/* estilos de main */
+
+.franja{    
+   background-image: url(../img/fondo.jpg);
+   padding: 30px;
+   height: 400px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+   gap: 50px;
+   flex-direction: row;
+   margin-bottom: 20px;
+} 
+
+
+
+.letra-main{
+
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.fondo-video{
+    background-image: url(../img/fondo2.jpg);
+
+
+}
+
+
+.index-videos{
+    
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap:20px;
+    flex-direction: row; 
+  
+
+}
+
+.index-galeria{
+
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 200px;
+    flex-direction: row; 
+    background-color:rgb(100, 143, 143)
+   
+}
+
+img{
+
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+img:hover{
+    transform: scale(1.1);
+    
+}
+
+
+/* estilos de footer*/
+
+footer{
+background-color: rgb(255, 255, 255);
+
+}
+ footer img{
+
+   margin-left: 20px;
+   margin-top: 20px;
+ }
+
+footer h4{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+footer div ul{
+
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+footer div ul li{
+ 
+font-size: 17px;
+font-family: sans-serif;
+
+}
+
+footer div{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+/*estilos biografia.html*/
+
+.main-biografia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.texto-biografia{
+color: aliceblue;
+font-size: 15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align:left;
+margin-left: 10px;
+
+}
+
+.texto-musicahtml{
+display: flex;
+justify-content:center;
+align-items: center;
+flex-wrap: wrap;
+
+
+}
+
+/*estilos video.html*/
+
+.main-video{
+
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.main-divvideos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+  
+}
+
+/*estilos contacto.html*/
+.main-divcontacto{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 30px;
+  
+  
+   
+
+  
+}
